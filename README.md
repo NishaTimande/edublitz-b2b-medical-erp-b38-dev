@@ -2,7 +2,7 @@
 #this readme file and project is dedicated for b38 batch
 #this is a immediate hotfix change that should be implement on prod immediately.
 A production-grade **Medical Domain B2B ERP** platform for hospitals, distributors, and medical vendors. Built with a microservices architecture on AWS infrastructure.
-it is cedc44...
+it is cedc44...this is sample
 ## Architecture Overview
 
 ```

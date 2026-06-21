@@ -23,4 +23,5 @@ RUN unzip templatemo_623_novapay.zip  && \
 EXPOSE 80
 # container will be having open 80 port
 
+#cmd is used to start the single running process on docker.
 CMD  ["apachectl", "-D", "FOREGROUND"]

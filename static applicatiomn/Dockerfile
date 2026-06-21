@@ -9,7 +9,7 @@ RUN apt-get update && \
     rm -rf /var/www/html/index.html 
 #we install webserver ,unzip package & update the same image
 
-ADD https://templatemo.com/download/templatemo_623_novapay  /var/www/html/templatemo_623_novapay
+ADD https://templatemo.com/download/templatemo_623_novapay  /var/www/html/templatemo_623_novapay.zip
 #we download the static page from internet & move it ibn /var/www/html/templatemo_623_novapay
 
 WORKDIR /var/www/html
